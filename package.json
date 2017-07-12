@@ -1,0 +1,20 @@
+{
+  "name": "x-ray-driver-redis",
+  "version": "0.1.0",
+  "description": "Simple request driver for x-ray that supports caching using redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/kdridi/x-ray-driver-redis",
+  "author": "Karim DRIDI <karim.dridi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "x-ray": "^2.3.2"
+  }
+}
